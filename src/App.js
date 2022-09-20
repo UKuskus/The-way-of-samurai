@@ -1,15 +1,19 @@
 import './App.css';
 import React from 'react';
-import Series from './Series';
 import Header from './Header';
+import Navigation from './Navigation';
+import Content from './Content';
+
 
 const App = () => {
   return (
-    <div>
-      <Header/>
-      <Series/>
+    <div className="App-wrapper">
+       <Header/>
+       <Navigation/>
+       <Content/>
+      
     </div>
-
+   
   );
 }
 
