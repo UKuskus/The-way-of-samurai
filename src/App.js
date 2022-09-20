@@ -1,4 +1,7 @@
 import './App.css';
+import React from 'react';
+import Series from './Series';
+import Header from './Header';
 
 const App = () => {
   return (
@@ -7,26 +10,6 @@ const App = () => {
       <Series/>
     </div>
 
-  );
-}
-const Header = () => {
-  return (
-    <div className="Header">
-        <a href='#c'>News-</a>
-        <a href='#c'>Feed-</a>
-        <a href='#c'>Updates-</a>
-        <a href='#c'>Messages</a>
-    </div>);
-}
-const Series = () =>{
-  return(
-    <div className="Series">
-    <ul>
-      <li>Rick and Morty</li>
-      <li>Simpsons</li>
-      <li>Griffins</li>
-    </ul> 
-  </div>
   );
 }
 
