@@ -7,22 +7,11 @@
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 20px;
+ 
 }
-.Header{
-  grid-area: header;
-  background-color: aquamarine;
-}
-.Header img{
-  width: 60px;
-}
-.Navigation{
-  grid-area: navigation;
-  background-color: darkred;
-}
-.Content{
-  grid-area: content;
-  background-color: cornflowerblue;
-}
-.Content img{
-  height: 500px;
+
+
+.navButton {
+  border-radius: 50%;
+  border: 1px solid black
 }
