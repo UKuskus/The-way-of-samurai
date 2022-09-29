@@ -1,0 +1,7 @@
+.Profile{
+    grid-area: content;
+    background-color: cornflowerblue;
+  }
+  .Profile img{
+    height: 500px;
+  }
