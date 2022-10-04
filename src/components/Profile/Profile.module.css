@@ -1,7 +1,8 @@
-.Profile{
+.Profile {
     grid-area: content;
     background-color: cornflowerblue;
-  }
-  .Profile img{
+}
+
+.Profile>img {
     height: 500px;
-  }
+}
