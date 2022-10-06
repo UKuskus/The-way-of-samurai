@@ -4,7 +4,7 @@ import s from './Navigation.module.css'
 const Navigation = () => {
   return (
     <nav className={s.Navigation}>
-      <div className={s.NavItem}>
+            <div className={s.NavItem}>
         <a>Profile</a>
       </div>
       <div className={s.NavItem}>

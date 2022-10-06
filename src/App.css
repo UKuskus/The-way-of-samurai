@@ -1,17 +1,21 @@
-.App-wrapper{
-  display: grid;
+.App-wrapper {
+    display: grid;
 
-  grid-template-areas: 
-  "header header"
-  "navigation content";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 20px;
- 
+    grid-template-areas:
+    "header header"
+    "navigation content";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 20px;
+
 }
 
 
 .navButton {
-  border-radius: 50%;
-  border: 1px solid black
+    border-radius: 50%;
+    border: 1px solid black
+}
+
+.app-wrapper-content {
+
 }
