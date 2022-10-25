@@ -5,19 +5,19 @@ const Navigation = () => {
   return (
     <nav className={s.Navigation}>
             <div className={s.NavItem}>
-        <a>Profile</a>
+        <a href="/profile">Profile</a>
       </div>
       <div className={s.NavItem}>
-        <a>Messages</a>
+        <a href="/dialogs">Messages</a>
       </div>
       <div className={s.NavItem}>
-        <a>News</a>
+        <a href="/news">News</a>
       </div>
       <div className={s.NavItem}>
-        <a>Music</a>
+        <a href="/music">Music</a>
       </div>
       <div className={s.NavItem}>
-        <a>Settings</a>
+        <a href="/settings">Settings</a>
       </div>
     </nav>
   );
