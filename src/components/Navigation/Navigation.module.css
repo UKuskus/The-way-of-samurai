@@ -1,8 +1,14 @@
 .Navigation {
     grid-area: navigation;
     background-color: darkred;
+    padding: 20px;
 }
 
-.NavItem {
-    color: hotpink;
+.NavItem a{
+    color: white;
+    text-decoration: none;
 }
+.NavItem a.active{
+    color: gold;
+}
+
