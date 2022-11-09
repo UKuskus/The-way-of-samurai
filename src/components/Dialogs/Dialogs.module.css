@@ -1,4 +1,25 @@
 .Dialogs {
+    display: grid;
     grid-area: content;
     background-color: cornflowerblue;
+
+    grid-template-areas: "content content";
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 20px;
+
+    padding: 20px;
+}
+
+.Dialog_Items{
+
+}
+.Dialog_Items .active{
+    font-size: x-large;
+    color: chartreuse;
+}
+Dialog_items .Dialog{
+
+}
+.Messages .Message{
+
 }
