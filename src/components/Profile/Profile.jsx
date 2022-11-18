@@ -7,8 +7,6 @@ const Project = () => {
     return (
         <div className={s.Profile}>
             <ProfileInfo/>
-
-
             <div>
                 <MyPosts/>
             </div>
