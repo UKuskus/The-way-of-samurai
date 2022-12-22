@@ -25,26 +25,24 @@ const Dialogs = (props) => {
         {name:'Viktoria', id: 4 },
         {name:'Igor', id: 5 }
     ]
+    let DialogsElements = DialogsArray
+        .map( (d) =>  (<DialogPiece name={d.name} pathid={d.id}/>));
     let MessagesArray = [
         {message:'Hey, bro how are you doing?', id:'1' },
         {message:'Cheers mate', id:'2' },
         {message:'Let\'s kill him!!!', id:'3' }
     ]
+    let MessageElements = MessagesArray
+        .map( (m)=>(<MessagePiece text={m.message} messageid={m.id}/>));
     return (
         <div className={s.Dialogs}>
 
             <div className={s.Dialog_Items }>
-                <DialogPiece name={DialogsArray[0].name} pathid={DialogsArray[0].id}/>
-                <DialogPiece name={DialogsArray[1].name} pathid={DialogsArray[1].id}/>
-                <DialogPiece name={DialogsArray[2].name} pathid={DialogsArray[2].id}/>
-                <DialogPiece name={DialogsArray[3].name} pathid={DialogsArray[3].id}/>
-                <DialogPiece name={DialogsArray[4].name} pathid={DialogsArray[4].id}/>
+                {DialogsElements}
             </div>
             
             <div className={s.Messages}>
-                <MessagePiece text={MessagesArray[0].message} messageid={MessagesArray[0].id}/>
-                <MessagePiece text={MessagesArray[1].message} messageid={MessagesArray[1].id}/>
-                <MessagePiece text={MessagesArray[2].message} messageid={MessagesArray[2].id}/>
+                {MessageElements}
             </div>
         </div>
 
